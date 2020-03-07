@@ -12,9 +12,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     max-width: 1170px;
 }
 
-section {
-    display: flex;
-}
+section { display: flex; }
 
 .flex { display: flex; }
 
@@ -28,11 +26,20 @@ section {
 
 .space-between { justify-content: space-between; }
 
-.btn { cursor: hand; border: none; padding: 6px 12px; line-height: 1.4; border-radius: 3px;}
+.btn { 
+    cursor: pointer; 
+    border: 0; 
+    padding: 6px 12px; 
+    line-height: 1.4; 
+    border-radius: 3px; }
 
-.btn-default { color: #fff; background-color: #faa541; }
+.btn-default { 
+    color: #fff; 
+    background-color: #faa541; }
 
-.btn-primary { color: #fff; background-color: #364147}
+.btn-primary { 
+    color: #fff; 
+    background-color: #364147}
 
 .form-control { display: block; padding: 6px 12px; border: 1px solid #a0a0a0; color: #8598a2; line-height: 1.4; }
 
