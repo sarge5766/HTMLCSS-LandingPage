@@ -84,7 +84,10 @@ section { display: flex; }
 
 .hero h2 { color: #faa541; }
 
-.hero h1, div .hero h2 { font-size: 63px; font-weight: 700; line-height: 0.9; }
+.hero h1, .hero h2 { 
+    font-size: 63px; 
+    font-weight: 700; 
+    line-height: 0.9; }
 
 .hero p { letter-spacing: 2px; font-weight: 700; font-size: 21px; margin: 0 0 10px; }
 
